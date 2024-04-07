@@ -1,4 +1,4 @@
-// nn bb ss u - Primitives in Js
+// nn bb ss u (null Number boolean bigint symbol string  undefined) - Primitives in Js
 let a = null;
 let b = 345;
 let c = true; // can also be false

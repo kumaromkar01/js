@@ -21,11 +21,11 @@ let obj = {
 }
 
 // For in loop
-for (let a in obj) {
+for (let a in obj) {  //a means key
   console.log("Marks of " + a + " are " + obj[a])
 }
 
-// For of loop
+// For of loop  //can't iterate on object but can do so over string or array
 for (let b of "Harry") {
   console.log(b)
 }

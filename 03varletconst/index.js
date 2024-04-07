@@ -10,6 +10,9 @@ let c = null
 let d  = undefined  
 {
   let b = 'this'
-  console.log(b)
+  console.log(b) // yeh ander wala change karega
 }
-console.log(b)
+console.log(b) //yeh bahar wala print karega
+
+//var stores globally while let and const locally
+//var can redeclared but let can't

@@ -12,8 +12,9 @@ const a1 = {
   section: 1,
   isPrincipal: false
 }
+// a1 is a reference to the object created it will point to the memory location
 // a1 = 45
-// a1 = {}
+// a1 = {}  //these will give error 
 
 // Chapter 1 - Q4
 a1['friend'] = "Shubham"  
@@ -27,4 +28,4 @@ const dict = {
   yakka: "work, especially hard work."
 }
 
-console.log(dict['yakka'])
+console.log(dict['yakka'])  //or console.log(dict.yakka)
