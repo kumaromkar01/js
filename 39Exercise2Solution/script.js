@@ -1,5 +1,5 @@
 let user = prompt("Enter S, W or G")
-let cpuI = Math.floor(Math.random() * 3);
+let cpuI = Math.floor(Math.random() * 3);  //Math.random() generates random number between 0 and 1.
 let cpu = ["S", "W", "G"][cpuI]
 
 const match = (cpu, user)=>{

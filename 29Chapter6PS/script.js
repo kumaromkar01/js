@@ -1,3 +1,5 @@
+// write a program to change the window location to google.com if user enter number greater than 4
+
 // let number = prompt("Enter your number")
 // number = Number.parseInt(number)
 

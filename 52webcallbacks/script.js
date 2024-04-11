@@ -26,7 +26,6 @@ function goodmorning(error, src) {
   
   if (error) {
     console.log(error)
-    sendEmergencyMessageToCeo();
     return
   }
   alert('Good morning' + src);

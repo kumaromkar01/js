@@ -24,6 +24,6 @@ let num = [551, 22, 3, 14, 5, 6, 7, 8, 229]
 // console.log(num)
 // console.log(deletedValues)
 
-// let newNum = num.slice(3)
-let newNum = num.slice(3, 5)
+let newNum = num.slice(3)
+// let newNum = num.slice(3, 5)
 console.log(newNum)

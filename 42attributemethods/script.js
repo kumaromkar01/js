@@ -7,6 +7,8 @@ let a = first.getAttribute("class")
 // first.setAttribute("class", "true sachin")
 // first.removeAttribute("class")
 // console.log(first.attributes)
+
+////you can create a custom attribute using data-<> then it will be accessible as id.datased.<>
 console.log(first.dataset)
 console.log(first.dataset.game)
 console.log(first.dataset.player)

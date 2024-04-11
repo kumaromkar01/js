@@ -11,4 +11,3 @@ marks_class_12[6] = 89 // Adding a new value to the array
 marks_class_12[0] = 96 // Changing the value of an array
 console.log(marks_class_12)
 console.log(typeof marks_class_12)
-
