@@ -32,6 +32,7 @@ let p3 = new Promise((resolve, reject) => {
 // let promise_all = Promise.all([p1, p2, p3])
 // let promise_all = Promise.allSettled([p1, p2, p3])
 // let promise_all = Promise.race([p1, p2, p3])
+//let promise_all = promise.any([p1,p2,p3])
 // let promise_all = Promise.resolve(6)
 let promise_all = Promise.reject(new Error("Hey"))
 promise_all.then((value) => {

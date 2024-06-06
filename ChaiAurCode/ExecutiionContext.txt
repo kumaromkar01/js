@@ -1,0 +1,12 @@
+THree types
+->Global execution context
+->function execution context
+->eval execution context
+
+How js code executes
+->Memory creation phase
+->Execution phase
+->
+
+
+

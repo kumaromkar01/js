@@ -3,13 +3,21 @@ console.log("Hacking wifi.... Please wait..." )
 }, 1000)
 
 try{
-        setTimeout(()=>{ 
-                console.log(rahul)  
-        }, 100)
+        console.log(rahul)  
 }
 catch(err){
         console.log("Balle balle")
 }
+
+
+// try{
+//         setTimeout(()=>{ 
+//                 console.log(rahul)  
+//         }, 100)
+// }
+// catch(err){
+//         console.log("Balle balle")
+// }
 
 
 setTimeout(()=>{ 
